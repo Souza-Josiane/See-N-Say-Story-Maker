@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Provides a brief description of the page content. Used by search engines. -->
+	<meta name="description" content="A nostalgic game">
+
+	<!-- Information about the site's author/owner. -->
+	<meta name="author" content="Josiane Souza">
+
+	<!-- Icon -->
+	<link rel="shortcut icon" href="img/favicon.png" type="img/x-icon">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+</head>
+
+<body>
+	<!-- Title of the game -->
+	<header>
+		<div class="h1-container">
+			<h1>SEE &#39;N SAY</h1>
+		</div>
+
+		<div class="subheader-container">
+			<div class="subheader">
+				<span class="blue">S</span>
+				<span class="green">T</span>
+				<span class="red">O</span>
+				<span class="purple">R</span>
+				<span class="pink">Y</span>
+			</div>
+			<div class="subheader">
+				<span class="pink">M</span>
+				<span class="purple">A</span>
+				<span class="green">K</span>
+				<span class="blue">E</span>
+				<span class="red">R</span>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="speak">
+				<!-- Button for playback -->
+				<button id="btnSpeak">Playback</button>
+			</div>
+			<hr>
+
+			<div class="containerWordList">
+				<div class="wordsSelected">
+					<!-- Display of selected words -->
+					<p id="displayWordN1"></p>
+					<p id="displayWordV"></p>
+					<p id="displayWordA"></p>
+					<p id="displayWordN2"></p>
+					<p id="displayWordP"></p>
+				</div>
+
+				<div class="allList">
+					<!-- List of available words -->
+					<div class="listOfWords">
+						<div>
+							<!-- Button to select nouns 1 -->
+							<button id="btnNoun1">Nouns 1</button>
+						</div>
+						<div class="noun1">
+							<!-- List of nouns 1 -->
+							<p>The turkey</p>
+							<p>Mom</p>
+							<p>Dad</p>
+							<p>The dog</p>
+							<p>My teacher</p>
+							<p>The elephant</p>
+							<p>The cat</p>
+						</div>
+					</div>
+
+					<div class="listOfWords">
+						<div>
+							<!-- Button to select verb -->
+							<button id="btnVerb">Verbs</button>
+						</div>
+						<div class="verb">
+							<!-- List of verbs -->
+							<p>sat on</p>
+							<p>ate</p>
+							<p>danced with</p>
+							<p>saw</p>
+							<p>does not like</p>
+							<p>kissed</p>
+						</div>
+					</div>
+
+					<div class="listOfWords">
+						<div>
+							<!-- Button to select adjective -->
+							<button id="btnAdjective">Adj.</button>
+						</div>
+						<div class="adjective">
+							<!-- List of adjectives -->
+							<p>a funny</p>
+							<p>a scary</p>
+							<p>a goofy</p>
+							<p>a slimy</p>
+							<p>a barking</p>
+							<p>a fat</p>
+						</div>
+					</div>
+
+					<div class="listOfWords">
+						<div>
+							<!-- Button to select nouns 2 -->
+							<button id="btnNoun2">Nouns 2</button>
+						</div>
+						<div class="noun2">
+							<!-- List of nouns 2 -->
+							<p>goat</p>
+							<p>monkey</p>
+							<p>fish</p>
+							<p>cow</p>
+							<p>frog</p>
+							<p>bug</p>
+							<p>worm</p>
+						</div>
+					</div>
+
+					<div class="listOfWords">
+						<div>
+							<!-- Button to select place -->
+							<button id="btnPlace">Places</button>
+						</div>
+						<div class="place">
+							<!-- List of places -->
+							<p>on the moon</p>
+							<p>on the chair</p>
+							<p>in my spaghetti</p>
+							<p>in my soup</p>
+							<p>on the grass</p>
+							<p>in my shoes</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="reset">
+				<!-- Button to reset selection -->
+				<button id="btnReset">Reset</button>
+			</div>
+
+		</div>
+
+		<script src="js/app.js"></script>
+	</main>
+	<footer>
+		<div class="footer-bottom">
+			<nav>
+				<a href="about/privacy-policy.php" title="Read our Privacy Policy">Privacy Policy</a>
+				<span>|</span>
+				<a href="about/terms-of-use.php" title="Learn more about our terms of use">Terms of Use</a>
+			</nav>
+			<p><small>&copy; Mattel&reg;</small></p>
+		</div>
+	</footer>
+</body>
+
+</html>
